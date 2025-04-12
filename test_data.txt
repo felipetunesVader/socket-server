@@ -1,0 +1,73 @@
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. 
+Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+
+=== Test Section 1: Special Characters ===
+!@#$%^&*()_+-=[]{}|;:'",.<>?/~`
+áéíóúâêîôûãõñ¿¡
+
+=== Test Section 2: Numbers and Lists ===
+1. First item with some numbers: 12345678901234567890
+2. Second item with decimal numbers: 3.14159265359
+3. Third item with negative numbers: -987654321
+
+=== Test Section 3: Repeated Text Block ===
+This is a block of text that will be repeated multiple times to create larger content.
+We want to test how the server handles larger amounts of data.
+Testing buffer management and memory handling.
+Making sure there are no memory leaks or data corruption.
+END OF BLOCK
+
+=== Test Section 4: JSON-like Data ===
+{
+    "user": {
+        "id": 12345,
+        "name": "Test User",
+        "email": "test@example.com",
+        "preferences": {
+            "theme": "dark",
+            "notifications": true,
+            "language": "en-US"
+        }
+    }
+}
+
+=== Test Section 5: Code Snippet ===
+def example_function():
+    try:
+        for i in range(100):
+            result = i * i
+            print(f"Square of {i} is {result}")
+    except Exception as e:
+        print(f"Error: {e}")
+    finally:
+        print("Cleanup complete")
+
+=== Test Section 6: Large Text Block ===
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English alphabet at least once. Jackdaws love my big sphinx of quartz. Pack my box with five dozen liquor jugs. How vexingly quick daft zebras jump! The five boxing wizards jump quickly. Sphinx of black quartz, judge my vow.
+
+=== Test Section 7: Repeated Pattern ===
+Pattern-A-Pattern-A-Pattern-A-Pattern-A-Pattern-A
+Pattern-B-Pattern-B-Pattern-B-Pattern-B-Pattern-B
+Pattern-C-Pattern-C-Pattern-C-Pattern-C-Pattern-C
+
+=== Test Section 8: Binary-like Data ===
+0101010101 1010101010 0101010101 1010101010
+1111000011 1100110011 1010101010 0101010101
+0000111100 1111000011 1100110011 0011001100
+
+=== Test Section 9: URL-like Strings ===
+https://example.com/api/v1/users?id=12345&format=json
+https://test-domain.org/path/to/resource#section
+ftp://files.example.net/public/documents/report.pdf
+
+=== Test Section 10: Large Numbers ===
+9999999999999999999999999999999999999999
+1234567890123456789012345678901234567890
+0000000000000000000000000000000000000000
+
+=== Final Section: Repeated Content for Size ===
+All previous sections will be repeated multiple times to ensure significant size...
+
+[Previous content repeated 3 times for size...]
+
+=== END OF TEST DATA === 
