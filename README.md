@@ -130,8 +130,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - Inspired by real-world networking challenges
 - Designed for educational purposes
 
-## 📬 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
 
-Project Link: [https://github.com/yourusername/socket-server](https://github.com/yourusername/socket-server)
+
+
